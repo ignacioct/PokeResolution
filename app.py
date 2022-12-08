@@ -6,6 +6,7 @@ works on a preset of test images.
 """
 
 import numpy as np
+import matplotlib.pyplot as plt
 import streamlit as st
 from tensorflow import clip_by_value, expand_dims, squeeze, split, concat
 from tensorflow.image import resize, ResizeMethod, rgb_to_yuv, yuv_to_rgb, resize
@@ -228,10 +229,17 @@ def main():
 
     with col2:
         st.header("After super resolution")
-        st.image(
-            array_to_img(predicted_image),
-            width=264,
-        )
+
+        if rgb:
+            st.image(
+                predicted_image.numpy().astype("uint8"),
+                width=264,
+            )
+        else:
+            st.image(
+                array_to_img(predicted_image),
+                width=264,
+            )
 
 
 if __name__ == "__main__":
