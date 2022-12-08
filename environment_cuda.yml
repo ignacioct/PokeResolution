@@ -1,0 +1,16 @@
+name: PokeRes
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - ipykernel
+  - numpy
+  - cudatoolkit
+  - cudnn
+  - matplotlib
+  - pip
+  - pip:
+      - tensorflow
+      - split-folders
+      - streamlit
+      - wandb

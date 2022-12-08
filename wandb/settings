@@ -1,0 +1,4 @@
+[default]
+entity: astro-res
+project: AstroRes
+base_url: https://api.wandb.ai

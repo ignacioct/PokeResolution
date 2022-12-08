@@ -1,0 +1,6 @@
+images/*
+weights/*
+results/*
+*__pycache__*
+wandb/*
+!wandb/settings

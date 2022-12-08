@@ -1,0 +1,15 @@
+name: PokeRes
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - ipykernel=6.16.0=pyh736e0ef_0
+  - numpy=1.21.5=py37h2e5f0a9_3
+  - matplotlib
+  - tensorflow=2.10.0=cpu_py37h5be20f2_0
+  - pip
+  - pip:
+      - split-folders
+      - wandb==0.13.4
+      - streamlit==1.15.1
