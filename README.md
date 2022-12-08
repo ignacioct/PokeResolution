@@ -47,6 +47,6 @@ streamlit run app.py
 There, you can choose the model and the factor of upscaling that you want to visualize, and pick a random Pokemon from the test dataset (which has not been seen by any of the models in the training phases). 
 
 <table  cellspacing="0" cellpadding="0"><tr>
-<td> <img src="visualAssets/dashboard1.png" alt="Screenshot 1"/> </td>
-<td> <img src="visualAssets/dashboard2.png" alt="Screenshot 2" /> </td>
+<td> <img src="visualAssets/dashboard_1.png" alt="Screenshot 1"/> </td>
+<td> <img src="visualAssets/dashboard_2.png" alt="Screenshot 2" /> </td>
 </tr></table>
